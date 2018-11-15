@@ -88,12 +88,12 @@ function shuffle(array) {
  */
 	function cardNoMatch(card1, card2)
 	{
-        card1.slideToggle(500, function(){
-            card1.toggleClass('open show').show();
-        });
-        card2.slideToggle(500, function(){
-            card2.toggleClass('open show').show();
-        });
+		card1.slideToggle(500, function(){
+		    card1.toggleClass('open show').show();
+		});
+		card2.slideToggle(500, function(){
+		    card2.toggleClass('open show').show();
+		});
 	
 		previousCard = null;
 	}
