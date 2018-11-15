@@ -88,10 +88,12 @@ function shuffle(array) {
  */
 	function cardNoMatch(card1, card2)
 	{
-		card1.slideToggle(500, function(){
+		card1.slideToggle(500, function()
+		{
 		    card1.toggleClass('open show').show();
 		});
-		card2.slideToggle(500, function(){
+		card2.slideToggle(500, function()
+		{
 		    card2.toggleClass('open show').show();
 		});
 	
@@ -164,7 +166,8 @@ function shuffle(array) {
 		timerSeconds = 0; 
 		timerCycle = false;
 
-		for (i = 0; i < deckShuffled.length; i++) {
+		for (i = 0; i < deckShuffled.length; i++)
+		{
 		  htmlString += '<li class="card"><i class="fa fa-' + deckShuffled[i] +'"></i></li>';
 		}
 
